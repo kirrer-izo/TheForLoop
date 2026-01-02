@@ -8,11 +8,15 @@ public class Sum3And5Challenge {
             boolean isDivisible = (i % 3 == 0 && i % 5 == 0);
 
 
-            if (isDivisible && count <= 4) {
+            if (isDivisible) {
                 sum += i;
                 System.out.println("Number is " + i);
                 count ++;
 
+            }
+
+            if (count == 5) {
+                break;
             }
         }
 

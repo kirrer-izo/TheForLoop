@@ -10,7 +10,7 @@ public class Sum3And5Challenge {
 
             if (isDivisible) {
                 sum += i;
-                System.out.println("Number is " + i);
+                System.out.println("Found a match " + i);
                 count ++;
 
             }
